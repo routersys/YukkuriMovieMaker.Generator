@@ -22,8 +22,8 @@ git submodule add https://github.com/manju-summoner/YukkuriMovieMaker.Generator.
 5. VisualStudioを再起動する
 6. csvファイルを追加する。（例: Translate.csv）
 ```csv
-Key,comment,ja-jp,en-us,zh-cn,zh-tw,ko-kr,es-es,ar-sa,
-SampleKey,コメント,サンプル,Sample,示例,範例,샘플,Muestra,عينة,
+Key,comment,ja-jp,en-us,zh-cn,zh-tw,ko-kr,es-es,ar-sa,id-id,
+SampleKey,コメント,サンプル,Sample,示例,範例,샘플,Muestra,عينة,Mencicipi,
 ```
 7. csvファイルと同じフォルダに、csvファイルと同名のpartial classを作成し、[AutoGenLocalizer]属性を付与する。（例: Translate.cs）
 ```cs
