@@ -1,6 +1,5 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 
-#pragma warning disable RS1036
 namespace YukkuriMovieMaker.Generator
 {
     class TranslateRecordKeyComparer : IEqualityComparer<TranslateRecord>
